@@ -1,0 +1,416 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Passion+One:wght@400;700;900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Passion+One:wght@400;700;900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Sacramento&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Passion+One:wght@400;700;900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Sacramento&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Passion+One:wght@400;700;900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Sacramento&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Passion+One:wght@400;700;900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Sacramento&family=Sriracha&display=swap');
+
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fonte0: 'Dancing Script', sans-serif;
+    --fonte1: 'Passion One', sans-serif;
+    --fonte2: 'Lobster', sans-serif;
+    --fonte3: 'Playfair', sans-serif;
+    --fonte4: 'Lora', sans-serif;
+    --fonte5: 'Merriweather', sans-serif;
+    --fonte6: 'Sacramento', sans-serif;
+    --fonte7: 'Great Vibes', sans-serif;
+
+    --cor1: #D16BA5;
+    --cor2: #A47FD3;
+    --cor3: #E3E3E3;
+    --cor4: #FFFFFF;
+    --cor5: #FFD700;
+    --cor6: #800020;
+    --cor7: #2C2C2C;
+    --cor8: #F5F5F5;
+    --cor9: #FF3B30;
+    --cor10: #005F73;
+    --cor11: #ADB5BD;
+    --cor12: #FAFAFA;
+}
+
+body {
+    background-color: var(--cor7);
+    font-family: var(--fonte4);
+}
+
+h1 {
+    font-family: var(--fonte7);
+    font-size: 40px;
+    color: var(--cor8);
+    text-align: center;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0 , 0, 0.466);
+}
+
+.inicio {
+    background-color: black;
+    color: var(--cor8);
+    width: 100%;
+    min-width: 600px;
+    height: 500;
+    margin: auto;
+    padding: 0;
+    top: 20px;
+    left: 20px;
+    padding-top: 40px;
+    border-bottom: none;
+    box-shadow: none;
+}
+
+h1 > p {
+    font-family: var(--fonte3);
+    color: var(--cor8);
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    padding-top: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+}
+
+.nav {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    margin-right: 20px;
+    position: relative;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+
+.tinicio {
+    font-family: var(--fonte3);
+    color: var(--cor8);
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 0 0 0 15px;
+    padding: 20;
+    padding-top: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+
+.nomes {
+    font-family: var(--fonte5);
+    color: var(--cor8);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 0 0 0 15px;
+    padding: 0;
+    padding-top: 20px;
+    margin: 0;
+    box-shadow: 0px 10px 10px -6px rgba(255, 255, 255, 0.4);
+    background-color: black;
+    border-top: none;
+}
+
+.imgi img {
+    width: 200px;
+    height: 200px;
+    border-radius: 0%;
+    position: absolute;
+    top: 18%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+
+.imgd img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 18%;
+    right: 20%;
+    transform: translate(50%, -50%);
+}
+
+.musica {
+    position: relative;
+    background: url('imagens/img11.jpg') center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px 10px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+.musica::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+}
+
+.music {
+    position: relative;
+    padding: 30px 30px;
+    padding-top: 50px;
+    margin-top: 50px;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+}
+
+.mp {
+    font-family: var(--fonte0);
+    color: var(--cor3);
+    font-size: 25pt;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px 5px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-decoration: none;
+    z-index: 2;
+}
+
+.imgm {
+    width: 500px;
+    top: 20%;
+    left: 20%;
+    border-radius: 10px 10px 10px 10px;
+    height: auto;
+    margin-top: -10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.mp:hover {
+    background: rgba(255, 4, 4, 0.24);
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.historia {
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.historia h2 {
+    font-family: var(--fonte0);
+    color: var(--cor8);
+    font-size: 50pt;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imgh {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.imgh img {
+    max-width: 40%;
+    height: auto;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.imgh img:hover {
+    opacity: 1;
+}
+
+.pt {
+    font-family: var(--fonte5);
+    column-count: 2;
+    column-gap: 30px;
+    text-align: center;
+    color: var(--cor8);
+    font-size: 1.1rem;
+    line-height: 1.8;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.para {
+    position: relative;
+    background: url('imagens/img01.jpg') center top fixed;
+    background-size: cover;
+    min-height: 100hv;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.para::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+}
+
+.gallery {
+    position: relative;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    flex-direction: row;
+    flex: 1;
+    max-width: 300px;
+}
+
+.gallery h2 {
+    font-family: var(--fonte1);
+    font-size: 30px;
+    color: var(--cor4);
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+}   
+
+.gallery p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: var(--cor8);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.img-g {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+    align-items: center;
+    margin-top: px;
+}
+
+.img-g img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    opacity: 0.8;
+    transition: opacity 0.5s ease, transform 0.3s ease;
+    position: relative;
+    z-index: 2;
+}
+
+.img-g img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.container {
+    background-color: var(--cor7);
+    display: flex;
+    justify-content: space-between; /* Para garantir que os elementos fiquem separados */
+    align-items: flex-start; /* Alinha as seções no topo */
+    gap: 20px; /* Espaçamento entre os dois elementos */
+    flex-wrap: wrap; /* Faz com que a disposição mude se a tela for pequena */
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.message {
+    color: var(--cor8);
+    font-size: var(--fonte4);
+    margin-top: 30px;
+    padding: 50px;
+    max-width: 600px; 
+    height: auto;
+    flex: 1; /* Isso vai permitir que o section ocupe o espaço restante */
+}
+
+.tm {
+    font-family: var(--fonte0);
+    color: var(--cor8);
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+.pm {
+    font-family: var(--fonte5);
+    text-align: center;
+    color: var(--cor8);
+    font-size: 1.1rem;
+    line-height: 1.8;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+/* Estilo para o aside */
+.aside {
+    width: 500px; /* Largura fixa para o aside */
+    flex-shrink: 0; /* Impede que o aside diminua */
+}
+
+.aside img {
+    width: 100%;
+    max-width: 450px;
+    display: block;
+    height: auto;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+    object-fit: cover;
+    float: right;
+    position: relative;
+    left: -60px;
+}
+
+.aside img:hover {
+    opacity: 1;
+}
+
+
+.f {
+    font-family: var(--fonte3);
+    color: var(--cor8);
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 15px;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+
+
